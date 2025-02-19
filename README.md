@@ -14,6 +14,8 @@ Welcome to the **Internet Computer Protocol (ICP) Bootcamp - Advanced AI Challen
 
 ## 🎯 Advanced Challenge
 
+You can choose **one of the 3 challenges** below to complete this section of the bootcamp.
+
 ### ✅ **Challenge 1: Deploy GPT‑2 Fully on ICP**
 
 **Task:**  
