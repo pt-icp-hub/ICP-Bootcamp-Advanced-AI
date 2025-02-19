@@ -54,7 +54,7 @@ Before running your AI agent, make sure to add the following lines to your `.env
 MODEL_NAME='gpt-4o-mini'
 MODEL_ENDPOINT='https://api.openai.com/v1'
 ```
-To obtain the **OpenAI API Key**, please DM **Tiago or [Your Name]**. We have prepared keys specifically for this challenge.
+To obtain the **OpenAI API Key**, please DM **Tiago or Antoine**. We have prepared keys specifically for this challenge.
 
 For authentication, the **ID_SECRET** and **ROOT_SECRET** can be directly derived from one of your existing `dfx` identities. You can do this by specifying the path to your selected identity `.pem` file. For example, to use the principal address of your **default** identity, run:
 ```
