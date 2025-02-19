@@ -1,6 +1,6 @@
 # 🤖 ICP Bootcamp - Advanced AI Challenge
 
-Welcome to the **Internet Computer Protocol (ICP) Bootcamp - Advanced AI Challenge**! This challenge focuses on deploying AI-powered agents on the ICP. For this challenge, your task is to deploy GPT‑2 fully on the Internet Computer using DecideAI’s integration.
+Welcome to the **Internet Computer Protocol (ICP) Bootcamp - Advanced AI Challenge**! This challenge focuses on deploying AI-powered agents on the ICP. For this challenge, your task is to deploy AI models and agents that interact with the ICP blockchain.
 
 ## 📜 Table of Contents
 
@@ -12,7 +12,9 @@ Welcome to the **Internet Computer Protocol (ICP) Bootcamp - Advanced AI Challen
 
 ---
 
-## 🎯 Advanced Challenge
+## 🎯 Advanced Challenges
+
+You can choose either of the 3 challenges below to complete this section of the bootcamp.
 
 ### ✅ **Challenge 1: Deploy GPT‑2 Fully on ICP**
 
@@ -35,9 +37,32 @@ Deploy the GPT‑2 model on the Internet Computer blockchain using the example i
 
 ---
 
+### ✅ **Challenge 2: Implement an AI Agent with Blockchain Tools**
+
+**Task:**  
+Develop an AI agent that uses the **OpenAI GPT-4o Mini API** for processing natural language commands while integrating with the **ICP blockchain** to query balances and execute transfers. This implementation does **not** require a Trusted Execution Environment (TEE) for simplicity.
+
+#### What You’ll Do:
+- **Implement an AI Agent:**  
+  Utilize the Anda framework to build an agent capable of handling blockchain interactions.
+- **Enable ICP Ledger Interactions:**  
+  Add tools to query account balances and execute token transfers on the ICP blockchain.
+- **Process AI Commands:**  
+  Allow users to interact with the agent via text-based inputs to retrieve blockchain-related information.
+
+#### 💡 Tips:
+- Use the Anda framework for AI agent deployment:  
+  [Anda Framework Repository](https://github.com/ldclabs/anda)
+- Follow the example **ICP Ledger Agent** for blockchain integration:  
+  [ICP Ledger Agent Guide](https://github.com/ldclabs/anda/tree/main/examples/icp_ledger_agent)
+- OpenAI API for AI-powered reasoning and decision-making.
+- Experiment with different interaction flows to optimize user experience.
+
+---
+
 ## 💡 Freedom to Innovate
 
-Feel free to modify, extend, or completely re-imagine the GPT‑2 integration. You might optimize performance, add new features, or experiment with alternative inference methods. The goal is to leverage the power of AI on ICP while addressing the unique challenges of deploying machine learning models on a decentralized platform.
+Feel free to modify, extend, or completely re-imagine these AI implementations. You may optimize performance, add new features, or experiment with alternative inference methods. The goal is to leverage the power of AI on ICP while addressing the unique challenges of deploying machine learning models on a decentralized platform.
 
 ---
 
@@ -45,12 +70,14 @@ Feel free to modify, extend, or completely re-imagine the GPT‑2 integration. Y
 
 - **Deploying Complex AI Models:**  
   Learn how to deploy a sophisticated machine learning model (GPT‑2) on ICP.
-- **Optimizing WebAssembly for AI:**  
-  Understand the process of converting and deploying AI models using WASI and `wasi2ic`.
-- **Performance Analysis:**  
-  Gain insights into computational costs and instruction counts associated with AI inference.
-- **Interacting with Canisters:**  
-  Develop skills in making canister calls and managing state for AI-driven applications.
+- **Building AI Agents on ICP:**  
+  Develop AI-powered assistants that interact with the blockchain.
+- **Integrating OpenAI APIs with ICP:**  
+  Understand how to leverage AI models to process user inputs and execute on-chain transactions.
+- **Using ICP Ledger Functions:**  
+  Gain experience in querying balances and handling token transfers programmatically.
+- **Exploring the Anda Framework:**  
+  Learn how to develop AI-driven automation using the Anda framework.
 
 ---
 
@@ -59,7 +86,10 @@ Feel free to modify, extend, or completely re-imagine the GPT‑2 integration. Y
 📚 [Official ICP Docs](https://internetcomputer.org/docs)  
 📚 [Motoko Programming Guide](https://sdk.dfinity.org/docs/language-guide/motoko.html)  
 📚 [DecideAI GPT‑2 on ICP Repository](https://github.com/decide-ai/decide-ai-ic/tree/main/examples/gpt2)  
-📚 [Hugging Face GPT‑2 Open Instruct v1](https://huggingface.co/vicgalle/gpt2-open-instruct-v1/tree/main)
+📚 [Hugging Face GPT‑2 Open Instruct v1](https://huggingface.co/vicgalle/gpt2-open-instruct-v1/tree/main)  
+📚 [Anda Framework Repository](https://github.com/ldclabs/anda)  
+📚 [ICP Ledger Agent Guide](https://github.com/ldclabs/anda/tree/main/examples/icp_ledger_agent)  
+📚 [OpenAI GPT-4o API Docs](https://platform.openai.com/docs/)
 
 ---
 
