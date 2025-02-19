@@ -12,9 +12,7 @@ Welcome to the **Internet Computer Protocol (ICP) Bootcamp - Advanced AI Challen
 
 ---
 
-## 🎯 Advanced Challenges
-
-You can choose either of the 3 challenges below to complete this section of the bootcamp.
+## 🎯 Advanced Challenge
 
 ### ✅ **Challenge 1: Deploy GPT‑2 Fully on ICP**
 
@@ -49,6 +47,19 @@ Develop an AI agent that uses the **OpenAI GPT-4o Mini API** for processing natu
   Add tools to query account balances and execute token transfers on the ICP blockchain.
 - **Process AI Commands:**  
   Allow users to interact with the agent via text-based inputs to retrieve blockchain-related information.
+
+#### 🔧 **Anda Framework Configuration**
+Before running your AI agent, make sure to add the following lines to your `.env` file:
+```
+MODEL_NAME='gpt-4o-mini'
+MODEL_ENDPOINT='https://api.openai.com/v1'
+```
+To obtain the **OpenAI API Key**, please DM **Tiago or [Your Name]**. We have prepared keys specifically for this challenge.
+
+For authentication, the **ID_SECRET** and **ROOT_SECRET** can be directly derived from one of your existing `dfx` identities. You can do this by specifying the path to your selected identity `.pem` file. For example, to use the principal address of your **default** identity, run:
+```
+./target/debug/anda_engine_cli agent-run -i ~/.config/dfx/identity/default/identity.pem -p 'Please check my PANDA balance'
+```
 
 #### 💡 Tips:
 - Use the Anda framework for AI agent deployment:  
