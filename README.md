@@ -14,8 +14,6 @@ Welcome to the **Internet Computer Protocol (ICP) Bootcamp - Advanced AI Challen
 
 ## 🎯 Advanced Challenge
 
-You can choose **one of the 3 challenges** below to complete this section of the bootcamp.
-
 ### ✅ **Challenge 1: Deploy GPT‑2 Fully on ICP**
 
 **Task:**  
@@ -73,6 +71,31 @@ For authentication, the **ID_SECRET** and **ROOT_SECRET** can be directly derive
 
 ---
 
+### ✅ **Challenge 3: Build an AI Agent Using the Eliza Framework**
+
+**Task:**  
+Develop an AI agent using the **Eliza framework** that interacts with an **Ethereum wallet deployed on ICP**. The AI agent should be able to securely request and process transactions following pre-configured security rules.
+
+#### What You’ll Do:
+- **Deploy an Eliza-based AI Agent:**  
+  Utilize the Eliza framework to build an agent capable of interacting with an Ethereum wallet on ICP.
+- **Securely Request Transactions:**  
+  Implement a system where the AI agent can **request** but not directly execute transactions.
+- **Apply Security Rules:**  
+  Enforce **limits on transactions** (e.g., max transaction amount, cooldown periods).
+- **Monitor and Control the AI Agent:**  
+  Provide a UI for users to **manage wallet security rules** and revoke access if necessary.
+
+#### 💡 Tips:
+- Watch the **demo video** explaining the AI-agent and Ethereum wallet integration:  
+  🎥 [Demo Video](https://www.youtube.com/watch?v=Eql_qSas3so)
+- Use the **Eliza Ethereum wallet plugin** for interacting with Ethereum on ICP:  
+  🔗 [ICP ETH Multi-User Wallet with Agent Support](https://github.com/kristoferlund/ic-eliza-eth-wallet)
+- Follow the **ElizaOS plugin example** for integrating AI with an Ethereum wallet:  
+  🔗 [ElizaOS Plugin Example](https://github.com/kristoferlund/ic-eliza-eth-wallet-agent)
+
+---
+
 ## 💡 Freedom to Innovate
 
 Feel free to modify, extend, or completely re-imagine these AI implementations. You may optimize performance, add new features, or experiment with alternative inference methods. The goal is to leverage the power of AI on ICP while addressing the unique challenges of deploying machine learning models on a decentralized platform.
@@ -89,20 +112,8 @@ Feel free to modify, extend, or completely re-imagine these AI implementations. 
   Understand how to leverage AI models to process user inputs and execute on-chain transactions.
 - **Using ICP Ledger Functions:**  
   Gain experience in querying balances and handling token transfers programmatically.
-- **Exploring the Anda Framework:**  
-  Learn how to develop AI-driven automation using the Anda framework.
-
----
-
-## 🔗 Resources & Documentation
-
-📚 [Official ICP Docs](https://internetcomputer.org/docs)  
-📚 [Motoko Programming Guide](https://sdk.dfinity.org/docs/language-guide/motoko.html)  
-📚 [DecideAI GPT‑2 on ICP Repository](https://github.com/decide-ai/decide-ai-ic/tree/main/examples/gpt2)  
-📚 [Hugging Face GPT‑2 Open Instruct v1](https://huggingface.co/vicgalle/gpt2-open-instruct-v1/tree/main)  
-📚 [Anda Framework Repository](https://github.com/ldclabs/anda)  
-📚 [ICP Ledger Agent Guide](https://github.com/ldclabs/anda/tree/main/examples/icp_ledger_agent)  
-📚 [OpenAI GPT-4o API Docs](https://platform.openai.com/docs/)
+- **Exploring the Eliza Framework:**  
+  Learn how to develop AI-driven automation with security constraints on ICP.
 
 ---
 
