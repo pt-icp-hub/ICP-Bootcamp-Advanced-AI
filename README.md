@@ -33,6 +33,8 @@ Deploy the GPT‑2 model on the Internet Computer blockchain using the example i
 - Review the provided analysis on instruction counts and performance to understand computational costs.
 - Experiment with different input lengths and generation parameters to optimize performance.
 
+🔗 **Repository:** [ICP Bootcamp - Advanced AI GPT-2](https://github.com/pt-icp-hub/ICP-Bootcamp-Advanced-AI-GPT2)
+
 ---
 
 ### ✅ **Challenge 2: Implement an AI Agent with Blockchain Tools**
@@ -61,13 +63,7 @@ For authentication, the **ID_SECRET** and **ROOT_SECRET** can be directly derive
 ./target/debug/anda_engine_cli agent-run -i ~/.config/dfx/identity/default/identity.pem -p 'Please check my PANDA balance'
 ```
 
-#### 💡 Tips:
-- Use the Anda framework for AI agent deployment:  
-  [Anda Framework Repository](https://github.com/ldclabs/anda)
-- Follow the example **ICP Ledger Agent** for blockchain integration:  
-  [ICP Ledger Agent Guide](https://github.com/ldclabs/anda/tree/main/examples/icp_ledger_agent)
-- OpenAI API for AI-powered reasoning and decision-making.
-- Experiment with different interaction flows to optimize user experience.
+🔗 **Repository:** [ICP Bootcamp - Advanced AI Anda](https://github.com/pt-icp-hub/ICP-Bootcamp-Advanced-AI-Anda)
 
 ---
 
@@ -94,26 +90,13 @@ Develop an AI agent using the **Eliza framework** that interacts with an **Ether
 - Follow the **ElizaOS plugin example** for integrating AI with an Ethereum wallet:  
   🔗 [ElizaOS Plugin Example](https://github.com/kristoferlund/ic-eliza-eth-wallet-agent)
 
+🔗 **Repository:** [ICP Bootcamp - Advanced AI Eliza](https://github.com/pt-icp-hub/ICP-Bootcamp-Advanced-AI-Eliza)
+
 ---
 
 ## 💡 Freedom to Innovate
 
 Feel free to modify, extend, or completely re-imagine these AI implementations. You may optimize performance, add new features, or experiment with alternative inference methods. The goal is to leverage the power of AI on ICP while addressing the unique challenges of deploying machine learning models on a decentralized platform.
-
----
-
-## 📖 Learning Outcomes
-
-- **Deploying Complex AI Models:**  
-  Learn how to deploy a sophisticated machine learning model (GPT‑2) on ICP.
-- **Building AI Agents on ICP:**  
-  Develop AI-powered assistants that interact with the blockchain.
-- **Integrating OpenAI APIs with ICP:**  
-  Understand how to leverage AI models to process user inputs and execute on-chain transactions.
-- **Using ICP Ledger Functions:**  
-  Gain experience in querying balances and handling token transfers programmatically.
-- **Exploring the Eliza Framework:**  
-  Learn how to develop AI-driven automation with security constraints on ICP.
 
 ---
 
@@ -128,4 +111,3 @@ Feel free to modify, extend, or completely re-imagine these AI implementations. 
 ---
 
 🚀 **Good luck, and welcome to AI-powered development on the Internet Computer!** 🚀
-
