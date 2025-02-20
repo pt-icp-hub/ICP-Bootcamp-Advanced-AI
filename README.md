@@ -62,6 +62,7 @@ For authentication, the **ID_SECRET** and **ROOT_SECRET** can be directly derive
 ```
 ./target/debug/anda_engine_cli agent-run -i ~/.config/dfx/identity/default/identity.pem -p 'Please check my PANDA balance'
 ```
+📕 **Detailed Documentation Tutorial** [Documentation Anda](https://docs.anda.bot/docs/quick-starts/create-an-agent-with-icp/https://docs.anda.bot/docs/quick-starts/create-an-agent-with-icp/)
 
 🔗 **Repository:** [ICP Bootcamp - Advanced AI Anda](https://github.com/pt-icp-hub/ICP-Bootcamp-Advanced-AI-Anda)
 
