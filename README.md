@@ -12,6 +12,9 @@ Welcome to the **Internet Computer Protocol (ICP) Bootcamp - Advanced AI Challen
 
 ---
 
+## 🎥 Overview Video
+https://2ly.link/24Pr1
+
 ## 🎯 Advanced Challenge
 
 ### ✅ **Challenge 1: Deploy GPT‑2 Fully on ICP**
